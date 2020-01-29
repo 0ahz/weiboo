@@ -19,7 +19,7 @@ const weiboo = require('weiboo')({
 });
 
 (async () => {
-  await weiboo.post('Hello Weiboo');
+  await weiboo.post({ text: 'Hello Weiboo' });
 })();
 ```
 
