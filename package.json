@@ -1,14 +1,26 @@
 {
   "name": "weiboo",
   "version": "0.1.2",
-  "description": "",
+  "description": "weibo tools",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "node"
+  ],
+  "author": {
+    "name": "0ahz",
+    "email": "shuangoahz@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0ahz/weiboo"
+  },
+  "bugs": {
+    "url": "https://github.com/0ahz/weiboo/issues"
+  },
+  "license": "MIT",
   "dependencies": {
     "superagent": "^5.2.1"
   }
